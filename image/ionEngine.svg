@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="792px" height="792px" viewBox="0 0 792 792" enable-background="new 0 0 792 792" xml:space="preserve">
+
+	<!-- Gradient Background -->
+	<circle r="380" cx="396" cy="396" fill="rgb(15, 55, 134)" />
+
+	<!-- Gear/Orbital -->
+	<defs>
+		<mask id="gearMask">
+			<defs>
+				<polygon id="tooth" points="-5,-50 5,-50 55,50 -55,50" />
+			</defs>
+			<rect width="100%" height="100%" fill="white"/>
+			<use xlink:href="#tooth" transform="translate(396 396) rotate(  0) translate(0 336)" />
+			<use xlink:href="#tooth" transform="translate(396 396) rotate( 24) translate(0 336)" />
+			<use xlink:href="#tooth" transform="translate(396 396) rotate( 48) translate(0 336)" />
+			<use xlink:href="#tooth" transform="translate(396 396) rotate( 72) translate(0 336)" />
+			<use xlink:href="#tooth" transform="translate(396 396) rotate( 96) translate(0 336)" />
+			<use xlink:href="#tooth" transform="translate(396 396) rotate(120) translate(0 336)" />
+			<use xlink:href="#tooth" transform="translate(396 396) rotate(144) translate(0 336)" />
+			<use xlink:href="#tooth" transform="translate(396 396) rotate(168) translate(0 336)" />
+			<use xlink:href="#tooth" transform="translate(396 396) rotate(192) translate(0 336)" />
+			<use xlink:href="#tooth" transform="translate(396 396) rotate(216) translate(0 336)" />
+			<use xlink:href="#tooth" transform="translate(396 396) rotate(240) translate(0 336)" />
+			<use xlink:href="#tooth" transform="translate(396 396) rotate(264) translate(0 336)" />
+			<use xlink:href="#tooth" transform="translate(396 396) rotate(288) translate(0 336)" />
+			<use xlink:href="#tooth" transform="translate(396 396) rotate(312) translate(0 336)" />
+			<use xlink:href="#tooth" transform="translate(396 396) rotate(336) translate(0 336)" />
+			<circle r="300" cx="396" cy="396" fill="white"/>
+			<circle r="256" cx="396" cy="396" />
+		</mask>
+	</defs>
+	<circle id="gear" r="336" cx="396" cy="396" mask="url(#gearMask)" fill="white" />
+
+	<!-- Nucleus -->
+	<defs>
+		<linearGradient id="gradRed" x1="0%" y1="0%" x2="0%" y2="100%">
+			<stop offset="  0%" stop-color="rgb( 223, 85, 85)" />
+			<stop offset="100%" stop-color="rgb( 179, 68, 68)" />
+		</linearGradient>
+		<linearGradient id="gradYellow" x1="0%" y1="0%" x2="0%" y2="100%">
+			<stop offset="  0%" stop-color="rgb( 237, 211, 68)" />
+			<stop offset="100%" stop-color="rgb( 190, 169, 55)" />
+		</linearGradient>
+		<linearGradient id="gradGreen" x1="0%" y1="0%" x2="0%" y2="100%">
+			<stop offset="  0%" stop-color="rgb( 46, 208, 115)" />
+			<stop offset="100%" stop-color="rgb( 37, 167,  92)" />
+		</linearGradient>
+		<linearGradient id="gradBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+			<stop offset="  0%" stop-color="rgb( 66, 142, 228)" />
+			<stop offset="100%" stop-color="rgb( 53, 114, 183)" />
+		</linearGradient>
+	</defs>
+	<circle id="bubble1" cx="313" cy="313" r="57.5" fill="url(#gradRed)" />
+	<circle id="bubble2" cx="479" cy="313" r="57.5" fill="url(#gradYellow)" />
+	<circle id="bubble3" cx="313" cy="479" r="57.5" fill="url(#gradGreen)" />
+	<circle id="bubble4" cx="479" cy="479" r="57.5" fill="url(#gradBlue)" />
+</svg>
