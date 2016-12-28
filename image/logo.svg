@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+
+	<!-- Orbital -->
+	<defs>
+		<mask id="orbitalMask">
+			<rect x="0" y="0" width="1000" height="1000" fill="white" />
+			<circle r="350" cx="500" cy="500" />
+			<circle r="30" cx="500" cy="200" fill="white" />
+			<circle r="250" cx="500" cy="500" fill="white" />
+		</mask>
+	</defs>
+	<circle r="420" cx="500" cy="500" mask="url(#orbitalMask)" fill="white" />
+
+	<!-- Nucleus -->
+	<circle id="bubble1" cx="415" cy="415" r="60" fill="#f22626" />
+	<circle id="bubble2" cx="585" cy="415" r="60" fill="#f29b26" />
+	<circle id="bubble3" cx="415" cy="585" r="60" fill="#21669c" />
+	<circle id="bubble4" cx="585" cy="585" r="60" fill="#1fc21f" />
+
+</svg>
